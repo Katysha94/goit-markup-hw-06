@@ -548,6 +548,62 @@ display: flex;
     fill:#F4F4FD;
 }
 
+.footer-form-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-form-field {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 24px;
+}
+
+.footer-label {
+    font-family: var(--main-font-family);
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-form-field input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    background-color: var(--primary-text-color);
+}
+
+.footer-form-field input::placeholder {
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-right: 212px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+.fotter-button {
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--secondary-accent-color);
+}
+
+.footer-buttom-container {
+    justify-content: center;
+}
+
 /* backdrop */
 
 .backdrop {
