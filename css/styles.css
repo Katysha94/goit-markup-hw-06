@@ -690,28 +690,53 @@ display: flex;
 
 /* modal-form */
 
+.modal-form-suptitle {
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+    width: 100%;
+    height: 24px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
 
-.modal-form-field {
+.modal-input-container {
+    position: relative;
+}
 
+.modal-form-field,
+.modal-form-check-desc {
+ display: block;
+ margin-top: 8px;
+ margin-bottom: 4px;
 }
 
 .modal-form-input {
  width: 100%;
  height: 40px;
- border: 1px solid var(--secondary-accent-color);
+ border: 1px solid var(--primary-text-color);
  border-radius: 4px;
  padding-left: 40px;
 }
 
+.modal-form-input-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    fill: var(--primary-text-color);
+}
+
 .modal-form-label-desc {
-    font-family: var(--main-font-family);
+    font-family: var(--main-font-family); 
     color: var(--primary-modal-color);
     font-weight: 400;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.04em;
-    margin-top: 8px;
-    margin-bottom: 4px;
 }
 
 /* portfolio.html */
