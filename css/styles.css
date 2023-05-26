@@ -777,7 +777,7 @@ transition: border-color var(--transition-duration-and-func);
     margin-bottom: 16px;
 }
 
-.comment-form-field {
+/* .comment-form-field {
     display: block;
     margin-bottom: 4px;
     font-family: var(--main-font-family);
@@ -787,7 +787,7 @@ transition: border-color var(--transition-duration-and-func);
     letter-spacing: 0.01em;
     color: var(--primary-modal-color);
     transition: border-color var(--transition-duration-and-func);
-}
+} */
 
 .modal-form-message {
     width: 100%;
@@ -815,10 +815,6 @@ transition: border-color var(--transition-duration-and-func);
     margin-bottom: 24px;
 }
 
-/* .modal-form-check {
-    position: absolute;
-    appearance: none;
-} */
 
 .modal-form-check-desc {
     font-family: var(--main-font-family);
@@ -841,7 +837,7 @@ transition: border-color var(--transition-duration-and-func);
     border: 1px solid #2e2f42;
     border-radius: 2px;
     fill: transparent;
-    transition: border-color var(--transition-duration-and-func), fill var(--transition-duration-and-func);
+    /* transition: border-color var(--transition-duration-and-func), fill var(--transition-duration-and-func); */
 
 }
 
