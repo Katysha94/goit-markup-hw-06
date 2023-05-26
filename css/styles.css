@@ -813,10 +813,10 @@ transition: border-color var(--transition-duration-and-func);
     margin-bottom: 24px;
 }
 
-.modal-form-check {
+/* .modal-form-check {
     position: absolute;
     appearance: none;
-}
+} */
 
 .modal-form-check-desc {
     font-family: var(--main-font-family);
@@ -824,7 +824,7 @@ transition: border-color var(--transition-duration-and-func);
     height: 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--primary-modal-color);
 }
@@ -836,7 +836,7 @@ transition: border-color var(--transition-duration-and-func);
     margin-right: 8px;
     width: 16px;
     height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     fill: transparent;
     transition: border-color var(--transition-duration-and-func), fill var(--transition-duration-and-func);
@@ -879,7 +879,7 @@ transition: border-color var(--transition-duration-and-func);
     color: #ffffff;
     min-width: 169px;
     height: 56px;
-    background: var(--secondary-accent-color);
+    background-color: var(--secondary-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
