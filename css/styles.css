@@ -592,7 +592,7 @@ display: flex;
     color: #FFFFFF;
 }
 
-/* .footer-form-field input::placeholder {
+.footer-input-form::placeholder {
     font-family: var(--main-font-family);
     font-weight: 400;
     font-size: 12px;
@@ -603,27 +603,33 @@ display: flex;
     padding-right: 212px;
     padding-bottom: 8px;
     padding-left: 16px;
-} */
+}
 
-.fotter-button {
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 165px;
     height: 40px;
     border-radius: 4px;
+    cursor: pointer;
+    border: none;
     background-color: var(--secondary-accent-color);
+    transition: background-color var(--transition-duration-and-func);
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--accent-color);
 }
 
 .submit-button {
-    display: block;
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-}
-
-.footer-buttom-container {
-    justify-content: center;
 }
 
 .footer-form-icon {
@@ -878,6 +884,11 @@ display: flex;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color var(--transition-duration-and-func);
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+    background-color: var(--accent-color);
 }
 /* portfolio.html */
 
